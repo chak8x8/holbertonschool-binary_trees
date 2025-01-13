@@ -26,7 +26,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	{
 		return (0);
 	}
-	
+
 	/* Check if it's a leaf */
 	if (tree->left == NULL && tree->right == NULL)
 	{
@@ -50,7 +50,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
  *
  * Return: The height of the tree. If `tree` is NULL, return 0.
  */
-static int measure_height (const binary_tree_t *tree)
+static int measure_height(const binary_tree_t *tree)
 {
 	int left_height, right_height;
 
